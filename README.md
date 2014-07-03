@@ -19,12 +19,17 @@ TextRankの仕組みを視覚的に理解したかったので作りました。
 
 めっちゃいろいろなものに依存してます。
 
-## Python Libraries
+## Python libraries
 
 * bottle
 * networkx
 * nltk
 * MeCab
+
+## JavaScript Library
+
+* jQuery
+* vis.js
 
 # Usage
 
