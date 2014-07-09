@@ -22,7 +22,7 @@ function draw(data) {
   // グラフのオプション
   var options = {};
   // vis.Graph()の第一引数はjQueryオブジェクトではなくDOMオブジェクト
-  var graph = new vis.Graph(container.get(0), graphdata, options);
+  var graph = new vis.Network(container.get(0), graphdata, options);
 
   // スコアを更新
   // 古いデータ行を削除
